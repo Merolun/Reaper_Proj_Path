@@ -13,7 +13,7 @@ Run it from a keyboard shortcut: every selected Wwise object gets the `.rpp` pat
 1. Install [Python](https://www.python.org/downloads/) and tick **Add Python to PATH**.
 2. Double-click `install_dependencies.bat`.
 3. In Reaper:
-   - **Options > Preferences > Plug-ins > ReaScript**: enable Python and select your Python install folder.
+   - **Options > Preferences > Plug-ins > ReaScript**: tick **Enable Python for use with ReaScript**. If it says "No compatible version of Python was found", set **Custom path to Python dll directory** to your Python install folder (for example `C:\Users\<you>\AppData\Local\Programs\Python\Python313`) and **Force ReaScript to use specific Python .dll** to your DLL name (for example `python313.dll`). Click OK and restart Reaper.
    - **Actions > Show action list > New action > Load ReaScript...** and pick `reaper_to_wwise.py`.
    - Right-click the new action to assign a keyboard shortcut.
 
