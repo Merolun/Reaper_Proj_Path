@@ -4,6 +4,10 @@ A ReaScript that writes the path of the current Reaper project into the **Notes*
 
 Run it from a keyboard shortcut: every selected Wwise object gets the `.rpp` path on a new line in its Notes. Objects that already contain the path are left alone, so pressing the shortcut twice is safe.
 
+## Demo
+
+[Watch the step-by-step demo](media/demo.mp4) (about 1 min 15 s, no audio).
+
 ## Install (Windows)
 
 1. Install [Python](https://www.python.org/downloads/) and tick **Add Python to PATH**.
